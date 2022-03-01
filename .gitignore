@@ -13,6 +13,7 @@ dist
 # Ignore env
 .env
 .envrc
+.npmrc
 
 # Use npm
 yarn.lock

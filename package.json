@@ -1,6 +1,6 @@
 {
   "name": "slack-status.ts",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "license": "MIT",
   "main": "dist/index.js",
@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/minidonut/slack-status.ts"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "NODE_ENV=test jest",
