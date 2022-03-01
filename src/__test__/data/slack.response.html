@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Slack System Status</title>
+      <meta name="author" content="Tiny Speck">
+      <meta name="description" content="Slack System Status">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta property="og:type" content="website">
+      <meta property="og:site_name" content="Slack">
+      <meta property="og:title" content="Slack System Status">
+      <meta property="og:image" content="https://status.slack.com/img/v2_rebrand/slack_hash_256.png">
+      <meta property="og:description" content="Resources for real-time and historical information about the Slack service.">
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@slackhq">
+      <meta name="twitter:title" content="Slack System Status">
+      <meta name="twitter:image" content="https://status.slack.com/img/v2_rebrand/slack_hash_256.png">
+      <meta name="twitter:image:alt" content="the Slack logo">
+      <meta name="twitter:description" content="Resources for real-time and historical information about the Slack service.">
+      <link rel="stylesheet" href="/css/v2/tooltips.css">
+      <link rel="stylesheet" href="/css/v2/averta-font.css">
+      <link rel="stylesheet" href="/css/v2/slack-icons-v2.css">
+      <link rel="stylesheet" href="/css/v2/slack.css">
+   </head>
+   <body>
+      <div id="nav_bar_section" class="general_scope sticky_header">
+         <div class="section">
+            <div id="nav_bar" class="flex_row align_center">
+               <div class="logo menu left"><a href="https://status.slack.com" class="flex_row align_center"><img src="/fonts/icons/icon_slack.svg" width="115" height="30"><span class="padding_left_10px">Status</span></a></div>
+               <div class="menu right"><a href="https://status.slack.com" class="margin_right_25px">Dashboard</a><a href="https://status.slack.com/calendar" class="margin_right_25px">History</a><a href="https://twitter.com/slackstatus">Twitter</a></div>
+            </div>
+         </div>
+      </div>
+      <div class="section nav_bar_filler"></div>
+      <main id="main" role="main">
+         <div class="bg_white width_100">
+            <div id="current_status" class="section align_center justify_content_center">
+               <div class="container">
+                  <img class="" src="/img/v2/Ok.png" srcset="/img/v2/Ok.png 1x, /img/v2/Ok@2x.png 2x">
+                  <h1 class="text_center width_100">Slack is up and running</h1>
+                  <p class="medium text_center off_gray width_100">Having trouble? <a href="https://slack.com/help/articles/205138367-Troubleshoot-connection-issues" class="underline">Troubleshoot connection issues</a> or email us at <a href="mailto:feedback@slack.com" class="underline">feedback@slack.com</a>.</p>
+               </div>
+            </div>
+            <div id="services_legend" class="section justify_content_center">
+               <div class="header">
+                  <p class="title bold">Current Status by Service</p>
+                  <div class="legend flex_row align_center">
+                     <div class="flex_row align_center">
+                        <img src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x">
+                        <p class="tiny off_black">No Issues</p>
+                     </div>
+                     <div class="flex_row align_center">
+                        <img src="/img/v2/TableMaintenance.png" srcset="/img/v2/TableMaintenance.png 1x, /img/v2/TableMaintenance@2x.png 2x">
+                        <p class="tiny off_black">Maintenance</p>
+                     </div>
+                     <div class="flex_row align_center">
+                        <img src="/img/v2/TableNotice.png" srcset="/img/v2/TableNotice.png 1x, /img/v2/TableNotice@2x.png 2x">
+                        <p class="tiny off_black">Notice</p>
+                     </div>
+                     <div class="flex_row align_center">
+                        <img src="/img/v2/TableIncident.png" srcset="/img/v2/TableIncident.png 1x, /img/v2/TableIncident@2x.png 2x">
+                        <p class="tiny off_black">Incident</p>
+                     </div>
+                     <div class="flex_row align_center">
+                        <img src="/img/v2/TableOutage.png" srcset="/img/v2/TableOutage.png 1x, /img/v2/TableOutage@2x.png 2x">
+                        <p class="tiny off_black">Outage</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section">
+               <div id="services">
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Login/SSO</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Connections</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Messaging</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Link Previews</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Posts/Files</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Notifications</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Calls</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Search</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Apps/Integrations/APIs</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+                  <div class="service header align_center">
+                     <div class="flex_column">
+                        <p class="bold">Workspace/Org Administration</p>
+                        <p class="tiny">No issues</p>
+                     </div>
+                     <div class="flex_row align_center"><img class="" src="/img/v2/TableCheck.png" srcset="/img/v2/TableCheck.png 1x, /img/v2/TableCheck@2x.png 2x"></div>
+                  </div>
+               </div>
+            </div>
+            <div id="recent_incidents_legend" class="bg_white width">
+               <div class="header section">
+                  <div class="flex_column">
+                     <p class="tiny legend_footer_links"><img src="/img/v2/Rss.png" srcset="/img/v2/Rss.png 1x, /img/v2/Rss@2x.png 2x"> Subscribe to Slack Status updates via <a href="https://status.slack.com/feed/atom" class="underline">Atom feed</a> or <a href="https://status.slack.com/feed/rss" class="underline">RSS feed</a> or read about our <a href="https://slack.com/help/articles/360001997548-Get-updates-on-Slacks-uptime-alerts" class="underline">uptime alerts</a> to learn more. </p>
+                  </div>
+                  <div class="flex_column">
+                     <div class="flex_row flex_right align_center">
+                        <div class="flex_row margin_right_25px uptime">
+                           <div>
+                              <p class="medium">Uptime for the current quarter:</p>
+                           </div>
+                           <div class="c-tooltip margin_left_5px">
+                              <p class="medium"><span class="underline bold">99.93%</span></p>
+                              <div class="c-tooltip__content v--north v--border-white">
+                                 <p class="bold">How is uptime calculated?</p>
+                                 <p>Slack is a distributed platform and during any given incident it is rare for all Slack teams to be affected. For this reason, we report our uptime as an average derived from the number of affected users.</p>
+                              </div>
+                           </div>
+                        </div>
+                        <a href="https://status.slack.com/calendar" class="button">SEE HISTORY</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="c-nav c-nav--footer">
+         <div class="c-nav--footer__menu">
+            <div class="o-content-container c-nav--footer__row">
+               <a class="c-nav--footer__link first" href="https://slack.com"><img class="c-nav--footer__svgicon c-slackhash" src="/fonts/icons/icon_slack_hash_colored.svg" width="54" height="54" aria-label="Slack Logo"></a>
+               <nav class="c-footer--wrap t-contains-subtle-links" role="navigation" aria-label="Footer Navigation">
+                  <div class="c-nav--footer__block">
+                     <p class="c-nav--footer__listheader">Product</p>
+                     <ul class="c-nav--footer__list">
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/features">Why Slack?</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/enterprise">Enterprise</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/security">Security</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/customer-stories">Customer Stories</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/pricing">Pricing</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slackdemo.com/">Slack Demo</a></li>
+                     </ul>
+                  </div>
+                  <div class="c-nav--footer__block">
+                     <p class="c-nav--footer__listheader">Slack for teams</p>
+                     <ul class="c-nav--footer__list">
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/engineering">Engineering</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/information-technology">IT</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/customer-support">Customer Support</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/sales">Sales</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/marketing">Marketing</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/project-management">Project Management</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/solutions/human-resources">Human Resources</a></li>
+                     </ul>
+                  </div>
+                  <div class="c-nav--footer__block">
+                     <p class="c-nav--footer__listheader">Resources</p>
+                     <ul class="c-nav--footer__list">
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/download">Download Slack</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/resources">eBooks &amp; Reports</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/apps">App Directory</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://api.slack.com/">API</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/help">Help Center</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/slack-tips">Slack Tips</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/partners">Partners</a></li>
+                     </ul>
+                  </div>
+                  <div class="c-nav--footer__block">
+                     <p class="c-nav--footer__listheader">Company</p>
+                     <ul class="c-nav--footer__list">
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/about">About Us</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/about/leadership">Leadership</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slackhq.com/">Blog</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/newsroom">News</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/media-kit">Media Kit</a></li>
+                        <li class="c-nav--footer__listitem"><a href="https://slack.com/careers">Careers</a></li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </div>
+         <div class="c-nav--footer__metasocial" role="contentinfo">
+            <div class="o-content-container">
+               <ul class="c-nav__list">
+                  <li class="c-nav--footer__listitem--meta v--center"><a href="https://status.slack.com/" target="_blank" rel="noopener">Status</a></li>
+                  <li class="c-nav--footer__listitem--meta v--center"><a href="https://slack.com/legal">Privacy &amp; Terms</a></li>
+                  <li class="c-nav--footer__listitem--meta v--center"><a href="https://slack.com/help/contact">Contact Us</a></li>
+               </ul>
+               <ul class="c-nav__list">
+                  <li class="c-nav--footer__listitem--social"><a target="_blank" rel="noopener" href="https://twitter.com/slackhq"><img class="c-nav--footer__svgicon" src="/fonts/icons/icon_social_twitter.svg" width="20" height="20" aria-label="Twitter Logo"></a></li>
+                  <li class="c-nav--footer__listitem--social"><a target="_blank" rel="noopener" href="https://facebook.com/slackhq"><img class="c-nav--footer__svgicon" src="/fonts/icons/icon_social_facebook_square.svg" width="20" height="20" aria-label="Facebook Logo"></a></li>
+                  <li class="c-nav--footer__listitem--social"><a target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCY3YECgeBcLCzIrFLP4gblw"><img class="c-nav--footer__svgicon" src="/fonts/icons/icon_social_youtube.svg" width="20" height="20" aria-label="Youtube Logo"></a></li>
+                  <li class="c-nav--footer__listitem--social"><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/tiny-spec-inc/"><img class="c-nav--footer__svgicon" src="/fonts/icons/icon_social_linkedin.svg" width="20" height="20" aria-label="LinkedIn Logo"></a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

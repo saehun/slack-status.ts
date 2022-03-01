@@ -10,6 +10,9 @@ function createSlackStatusFetcher(fetchHtml: () => Promise<string>, parse: (html
   return () => fetchHtml().then(parse);
 }
 
+/**
+ * Fetch slack status from `status.slack.com`
+ */
 const fetchSlackStatus = createSlackStatusFetcher(fetchSlackStatusPage, parseSlackStatus);
 
 export { fetchSlackStatus };
