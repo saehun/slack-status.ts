@@ -14,3 +14,11 @@ export enum SlackStatusType {
   Incident = 'Incident',
   Outage = 'Outage',
 }
+
+export const slackStatusIconUrl: Record<SlackStatusType, string> = {
+  [SlackStatusType.NoIssue]: '/img/v2/TableCheck.png',
+  [SlackStatusType.Maintenance]: '/img/v2/TableMaintenance.png',
+  [SlackStatusType.Notice]: '/img/v2/TableNotice.png',
+  [SlackStatusType.Incident]: '/img/v2/TableIncident.png',
+  [SlackStatusType.Outage]: '/img/v2/TableOutage.png',
+};
