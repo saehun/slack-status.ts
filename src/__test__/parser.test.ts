@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import { SlackStatusParseError } from '../error';
 
 describe('parser', () => {
-  const html = fs.readFileSync(require.resolve('./data/slack.response.html'), 'utf-8');
+  const html = fs.readFileSync(require.resolve('./data/slack-response-html.txt'), 'utf-8');
 
   it('indexOf works', () => {
     expect(__test__.indexOf('foo bar', 'foo').index).toEqual(0);
